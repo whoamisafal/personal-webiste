@@ -1,0 +1,25 @@
+h3 Projects 
+div#myprojects
+if(currentProjects!=null)
+ if currentProjects.length!= 0
+    div.projects
+        each project in currentProjects 
+            div.project
+            div.project-image
+                img.project-image-img(src=project.image)
+                h3.project-title= project.title
+                div.project-description
+                 =project.description
+                div.project-link
+                    a.project-link-button.button.button-primary.button-large(href=project.link, target="_blank") Visit
+                
+ else 
+    div.projects 
+        h3.projects-empty-title No projects yet.
+
+
+
+
+         
+            
+        

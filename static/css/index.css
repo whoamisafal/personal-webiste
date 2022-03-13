@@ -1,0 +1,32 @@
+#i{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 14em;
+    color:#ff0000;
+}
+.greeting-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 94, 94);
+}
+.greeting-container #greet{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 2em;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.project-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    word-wrap: break-word;
+    white-space: pre;
+   
+}
