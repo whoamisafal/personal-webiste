@@ -6,7 +6,7 @@ if(currentProjects!=null)
         each project in currentProjects 
             div.project
             div.project-image
-                img.project-image-img(src=project.image)
+                img.project-image-img(src=project.image, alt= project.title)
                 h3.project-title= project.title
                 div.project-description
                  =project.description

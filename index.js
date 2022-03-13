@@ -144,8 +144,8 @@ app.get('/', (req, res) => {
 
 
     res.render('index',{
-        title: 'Home',
-        description:'Personal Webiste, Portfolio, Blog, About Me, Safal Shrestha',
+        title: 'Safal Shrestha',
+        description:'Personal Webiste, Portfolio, Blog, About Me, Safal Shrestha, Full Stack Developer, Programmer',
         header: false,
         currentProjects: currentProjects,
 
