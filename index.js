@@ -1,6 +1,7 @@
 const express = require('express');
 const http = require('http');
 const app = express();
+const compression = require('compression');
 const server = http.createServer(app);
 const port = process.env.PORT || 3000;
 const path = require("path");
@@ -8,7 +9,7 @@ app.use(express.static(path.join(__dirname , 'static')));
 app.use(express.static(path.join(__dirname,'assets')));
 app.set('views', './public/views');
 app.set('view engine', 'pug');
-
+app.use(compression());
 
 
 
